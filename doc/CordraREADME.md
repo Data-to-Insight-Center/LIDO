@@ -1,7 +1,5 @@
 # Cordra (Object Service)
 
---------
-
 The Cordra Software is used for saving the pre-defined types and providing the descriptions of types for Airbox Data Lake abstract objects (metadata instances)
 
 All types should use the same schema `AirboxDataLake` 
