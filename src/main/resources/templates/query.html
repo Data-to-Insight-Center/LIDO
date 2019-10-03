@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Airbox Lake</title>
+<meta name="robots" content="noindex, nofollow">
+<link href="css/css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-boxed has-animations" style="height: 100%;">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">          
+        </header>
+        <main>
+            <section class="hero text-light text-center">
+            <p class="hero-cta is-revealing" style="visibility: visible;"><a class="button button-secondary button-shadow" href="http://AirboxDataLakeAddress:8082/">Home</a></p>
+                <div class="container-sm">
+                    <div class="hero-inner">
+                        <h1 class="hero-title h2-mobile mt-0 is-revealing" style="visibility: visible;">Airbox Lake Testbed Query Page</h1>
+                        <form action="/queryPage" method="get">
+                        <p class="hero-paragraph is-revealing" style="visibility: visible;">Here, please type in the query information</p>                               
+                        	
+                        	<table style ="width:100%">
+                        	<tr>
+                        	<td>PID:</td>
+							<td><input id="queryPID" type="text" name="pid" placeholder="11723/icnpid.b86b2825-f854-4311-84f0-38b1cab89551"/>
+							</tr>
+							
+							<tr>
+                        	<td>Device:</td>
+                        	<td><input id="queryDevice" type="text" name="device" placeholder="AirBox" />
+                        	</td>
+                        	</tr>
+                        	
+                        	<tr>
+                        	<td>Sensor:</td>
+                        	<td><input id="querySensor" type="text" name="sensor" placeholder="s_0"/>
+                        	</td>
+                        	</tr>
+                        	
+                        	<tr>
+                        	<td>Day:</td>
+                        	<td><input id="queryDay" type="text" name="day" placeholder="2017-12-04"/>
+                        	</td>
+                        	</tr>
+                        	
+                        	</table>
+                        	<br>
+                        	<button type="submit" class="primary submit-btn", formmethod="get"> Submit</button>                       	
+                        </form>
+                    </div>
+                </div>
+            </section>          
+        </main>       
+    </div>
+
+
+</body></html>

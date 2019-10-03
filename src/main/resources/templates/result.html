@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Airbox Lake</title>
+<meta name="robots" content="noindex, nofollow">
+<link href="css/css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="is-boxed has-animations" style="height: 100%;">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            
+        </header>
+
+        <main>
+            <section class="hero text-light text-center">
+            <p class="hero-cta is-revealing" style="visibility: visible;"><a class="button button-secondary button-shadow" href="http://AirboxDataLakeAddress:8082/">Home</a></p>
+                <div class="container-sm">
+                    <div class="hero-inner">
+                        <h1 class="hero-title h2-mobile mt-0 is-revealing" style="visibility: visible;">Airbox Lake Testbed Result Page</h1>
+                        <p class="hero-paragraph is-revealing" style="visibility: visible;">Here, you can see the result of uploading/querying</p>
+                        
+                        <table style ="width:100%">
+						<font color="red">
+                        
+                        
+                        <div th:if="${device}">
+                        	<tr>
+						    <td style="color:#000000" > Device : </td>
+						    <td style="color:#000000" th:text="${device}"></td>
+						    </tr>
+						</div>
+						<div th:if="${sensor}">
+                        	<tr>
+						    <td style="color:#000000" > Sensor : </td>
+						    <td style="color:#000000" th:text="${sensor}"></td>
+						    </tr>
+						</div>
+						<div th:if="${day}">
+                        	<tr>
+						    <td style="color:#000000" > Day : </td>
+						    <td style="color:#000000" th:text="${day}"></td>
+						    </tr>
+						</div>
+						<div th:if="${queryStatus}">
+                        	<tr>
+						    <td style="color:#000000" > Status : </td>
+						    <td style="color:#000000" th:text="${queryStatus}"></td>
+						    </tr>
+						</div>
+						<div th:if="${resultPID}">
+                        	<tr>
+						    <td style="color:#000000" > Result Digital Object : </td>
+						    <td style="color:#000000" th:text="${resultPID}"></td>
+						    </tr>
+						</div>
+                        
+                        
+                        <div th:if="${name}">
+                        	<tr>
+						    <td style="color:#000000" > File Name : </td>
+						    <td style="color:#000000" th:text="${name}"></td>
+						    </tr>
+						</div>
+						
+						
+						
+						<div th:if="${status}">
+						    <tr>
+						    <td style="color:#000000" >Status : </td>
+						    <td style="color:#000000" th:text="${status}"></td>
+						    </tr>
+						</div>
+						
+						
+						
+						<div th:if="${type}">
+						    <tr>
+						    <td style="color:#000000" >File Type : </td>
+						    <td style="color:#000000" th:text="${type}"></td>
+						    </tr>
+						</div>
+						
+						
+						
+						<div th:if="${size}">
+						    <tr>
+						    <td style="color:#000000" >File Size (bytes) : </td>
+						    <td style="color:#000000" th:text="${size}"></td>
+						    </tr>
+						</div>
+						
+						
+						
+						<div th:if="${unisPIDs}">
+						    <tr>
+						    <td style="color:#000000" >PID to Unis Object: </td>
+						    <td style="color:#000000" th:text="${unisPIDs}"></td>
+						    </tr>
+						</div>
+						
+						
+						
+						</font>
+						</table>
+						</
+                    </div>
+                </div>
+            </section>          
+        </main>       
+    </div>
+
+
+</body></html>
