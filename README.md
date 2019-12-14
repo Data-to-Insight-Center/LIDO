@@ -1,6 +1,6 @@
 # AirboxDataLake
 
-The Airbox Data Lake is designed for exploring how a network storage (Unis) will interoperate with the Digital Object Architecture (DOA) and take advantage of the PID Kernel Information and the Local Handle System of the E-RPID testbed
+The Airbox Data Lake is an experimental framework for abstracting raw data into digital objects in order for the raw data to be made FAIR.  The LIDO code here explores the framework's use of the PID Kernel Information (PID KI) (see 10.5281/zenodo.1462542) to more easily manage abstract digital objects. The demo framework uses a network storage (Unis) system to hold the raw data.  It stores type information in a Data Type Registry (see https://www.rd-alliance.org/groups/data-type-registries-wg.html) and obtains test handles from the E-RPID testbed at Indiana University. 
 
 # Installation Guide
 
