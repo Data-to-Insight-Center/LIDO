@@ -1,6 +1,6 @@
 # AirboxDataLake
 
-The Airbox Data Lake is an experimental framework for abstracting raw data into digital objects in order for the raw data to be made FAIR (findable, accessible, interoperable, reusable).  The LIDO code here explores the framework's use of the PID Kernel Information (PID KI) (see 10.5281/zenodo.1462542) to more easily manage abstract digital objects. The demo framework uses a network storage (Unis) system to hold the raw data.  It stores type information in a Data Type Registry (see https://www.rd-alliance.org/groups/data-type-registries-wg.html) and obtains test handles from the E-RPID testbed at Indiana University. 
+The Airbox Data Lake is an experimental framework for abstracting raw data into digital objects in order for the raw data to be made FAIR (findable, accessible, interoperable, reusable).  The LIDO code here explores the framework's use of the PID Kernel Information (PID KI) (see http://doi.org/10.5281/10.15497/RDA00031) to more easily manage abstract digital objects. The demo framework uses a network storage (Unis) system to hold the raw data.  It stores type information in a Data Type Registry (see https://www.rd-alliance.org/groups/data-type-registries-wg.html) and obtains test handles from the E-RPID testbed at Indiana University. 
 
 # Installation Guide
 
@@ -15,15 +15,15 @@ The Airbox Data Lake is an experimental framework for abstracting raw data into 
 
 ## Hardware Requirement
 
-1. This software can be deployed on physcial resources or VM instance with public network interface.
-2. For public access, it requries 2 open ports which iptables rules allow traffic through the firware for web service and Cordra.
+1. This software can be deployed on physcial resources or on a VM instance that has a public network interface.
+2. For public access, 2 open ports are required with iptables rules allowing traffic through the firewall for both LIDO and Cordra.
 
 ## Building the Dependencies
 
 1. Cordra (Object Service): 
 
    1. download the Cordra service from https://cordra.org/index.html
-   2. follow the instruction, install and run the Cordra service
+   2. follow the instructions to install and run the Cordra service
       1. create the proper types in Cordra (please follow the `CordraREADME.md` under the `doc`)
 
 2. Unis Service with IBP
@@ -74,7 +74,7 @@ Edit the `Property.java` file under `src/main/java/indiana/edu/property` and set
 vi LIDO/src/main/java/indiana/edu/property/Property.java
 ```
 
-Based on the information in temporal folder, create the relative folders by using
+Based on the information in temporary folder, create the relative folders by using
 
 ```
 mkdir Path/folderName
@@ -94,7 +94,7 @@ mvn spring-boot:run
 
 # Contributing
 
-This software release is under Apache 2.0 Licence
+The LIDO software is licensed under an Apache 2.0 License.  Cordra licensing information can be found on the Cordra site at https://www.cordra.org/.
 
 # Release History
 
