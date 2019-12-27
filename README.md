@@ -1,6 +1,6 @@
 # AirboxDataLake
 
-The Airbox Data Lake is an experimental framework for abstracting raw data into digital objects in order for the raw data to be made FAIR (findable, accessible, interoperable, reusable).  The LIDO code here explores the framework's use of the PID Kernel Information (PID KI) (see http://doi.org/10.15497/RDA00031) to more easily manage abstract digital objects. The demo framework uses a network storage (Unis) system to hold the raw data.  It stores type information in a Data Type Registry (see https://www.rd-alliance.org/groups/data-type-registries-wg.html) and obtains test handles from the E-RPID testbed at Indiana University. 
+The Airbox Data Lake is an experiment in exposing digital data that is inherently FAIR (rather than FAIR by virtue of the holding system.)   The key architectural components of the experiment are PID Kernel Information (PID KI) (see http://doi.org/10.15497/RDA00031) and the Cordra object store (www.cordra.org) for holding type information (see https://www.rd-alliance.org/groups/data-type-registries-wg.html), and test Handles obtained from the E-RPID testbed at Indiana University (https://github.com/rpidproject). 
 
 # Installation Guide
 
