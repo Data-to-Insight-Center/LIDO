@@ -1,0 +1,24 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Text",
+  "description": "Text",
+  "publisher": "Organization",
+  "keywords": "Text",
+  "license": "URL",
+  "dataFeedElement": [
+    {
+      "@type": "DataFeedItem",
+      "dateCreated": "Date/DateTime",
+      "dateModified": "Date/DateTime",
+      "item": {
+        "@type": "ImageObject",
+        "identifier": "Text/URI",
+        "contentURL": "URL",
+        "description": "Text",
+        "name": "Text",
+        "contentSize": "Text"
+      }
+    }
+  ]
+}
