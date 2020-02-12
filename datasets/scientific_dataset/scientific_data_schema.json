@@ -1,0 +1,46 @@
+{
+  "identifier": "URL",
+  "datePublished": "Date/DateTime",
+  "title": "Text",
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Text",
+      "affiliation": "Organization",
+      "identifier": "Text/URL"
+    }
+  ],
+  "contact": {
+    "@type": "Person",
+    "name": "Text",
+    "affiliation": "Organization",
+    "email": "Text"
+  },
+  "description": "Text",
+  "subject": "Text",
+  "relatedPublication": [
+    {
+      "@type": "PublicationIssue",
+      "issueNumber": "Integer/Text",
+      "identifier": "Text/URL",
+      "author": "Person",
+      "datePublished": "Date/DateTime",
+      "description": "Text",
+      "name": "Text"
+    }
+  ],
+  "depositor": "Person",
+  "dateDeposited": "Date/DateTime",
+  "distribution": "URL",
+  "files": [
+    {
+      "identifier": "Text/URL",
+      "datePublished": "Date/DateTime",
+      "dateDeposited": "Date/DateTime",
+      "name": "Text",
+      "pidURL": "URL",
+      "size": "Text",
+      "type": "Text"
+    }
+  ]
+}
