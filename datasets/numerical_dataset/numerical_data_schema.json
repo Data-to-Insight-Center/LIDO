@@ -6,6 +6,10 @@
   "publisher": "Organization",
   "keywords": "Text",
   "license": "URL",
+  "distribution": {
+    "@type": "DataDownload",
+    "url": "URL"
+  },
   "dataFeedElement": [
       {
         "@type": "DataFeedItem",
