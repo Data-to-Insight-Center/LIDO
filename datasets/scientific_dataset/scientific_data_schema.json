@@ -1,23 +1,29 @@
 {
+  "@context": "https://schema.org",
+  "@type": "Dataset",
   "identifier": "URL",
-  "datePublished": "Date/DateTime",
-  "title": "Text",
+  "name": "Text",
+  "description": "Text",
   "author": [
     {
+      "@type": "Organization",
+      "legalName" : "Text",
+      "address" : "Text",
+      "department" : "Text",
+      "url" : "URL"
+    },
+    {
       "@type": "Person",
-      "name": "Text",
       "affiliation": "Organization",
-      "identifier": "Text/URL"
+      "name": "Text",
+      "identifier" : "URL"
     }
   ],
-  "contact": {
-    "@type": "Person",
-    "name": "Text",
-    "affiliation": "Organization",
-    "email": "Text"
+  "keywords": "Text",
+  "distribution": {
+    "@type": "DataDownload",
+    "url": "URL"
   },
-  "description": "Text",
-  "subject": "Text",
   "relatedPublication": [
     {
       "@type": "PublicationIssue",
@@ -29,18 +35,22 @@
       "name": "Text"
     }
   ],
-  "depositor": "Person",
-  "dateDeposited": "Date/DateTime",
-  "distribution": "URL",
-  "files": [
+  "dataFeedElement": [
     {
-      "identifier": "Text/URL",
-      "datePublished": "Date/DateTime",
-      "dateDeposited": "Date/DateTime",
-      "name": "Text",
-      "pidURL": "URL",
-      "size": "Text",
-      "type": "Text"
+      "@type": "DataFeedItem",
+      "dateCreated": "Date/DateTime",
+      "dateModified": "Date/DateTime",
+      "item": {
+        "@type": "Thing",
+        "identifier": "Text/URL",
+        "datePublished": "Date/DateTime",
+        "dateDeposited": "Date/DateTime",
+        "name": "Text",
+        "pidURL": "URL",
+        "size": "Text",
+        "type": "Text",
+        "depositor": "Person"
+      }
     }
   ]
 }

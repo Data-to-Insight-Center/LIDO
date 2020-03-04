@@ -4,10 +4,23 @@
   "identifier": "Text/URL",
   "name": "Text",
   "description": "Text",
-  "publisher": "Organization",
+  "author": [
+    {
+      "@type": "Organization",
+      "legalName" : "Text",
+      "address" : "Text",
+      "department" : "Text",
+      "url" : "URL"
+    },
+    {
+      "@type": "Person",
+      "affiliation": "Organization",
+      "name": "Text",
+      "identifier" : "URL"
+    }
+  ],
   "keywords": "Text",
   "license": "URL",
-  "dateModified": "Date/DateTime",
   "distribution": {
     "@type": "DataDownload",
     "url": "URL"

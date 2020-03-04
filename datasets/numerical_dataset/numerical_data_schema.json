@@ -1,9 +1,24 @@
 {
   "@context": "https://schema.org",
   "@type": "Dataset",
+  "identifier": "Text/URL",
   "name": "Text",
   "description": "Text",
-  "publisher": "Organization",
+  "author": [
+    {
+      "@type": "Organization",
+      "legalName" : "Text",
+      "address" : "Text",
+      "department" : "Text",
+      "url" : "URL"
+    },
+    {
+      "@type": "Person",
+      "affiliation": "Organization",
+      "name": "Text",
+      "identifier" : "URL"
+    }
+  ],
   "keywords": "Text",
   "license": "URL",
   "distribution": {
@@ -11,13 +26,18 @@
     "url": "URL"
   },
   "dataFeedElement": [
-      {
-        "@type": "DataFeedItem",
-        "dateCreated": "Date/DateTime",
-        "dateModified": "Date/DateTime",
-        "identifier":  "Text",
+    {
+      "@type": "DataFeedItem",
+      "dateCreated": "Date/DateTime",
+      "dateModified": "Date/DateTime",
+      "item": {
+        "@type": "Thing",
+        "identifier": "Text",
+        "contentURL": "URL",
+        "description": "Text",
         "name": "Text",
-        "description": "Text"
+        "contentSize": "Text"
       }
-    ]
+    }
+  ]
 }
