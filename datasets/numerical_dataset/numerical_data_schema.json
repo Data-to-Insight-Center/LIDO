@@ -8,15 +8,16 @@
     {
       "@type": "Organization",
       "legalName" : "Text",
-      "address" : "Text",
+      "email" : "Text",
       "department" : "Text",
       "url" : "URL"
     },
     {
       "@type": "Person",
       "affiliation": "Organization",
-      "name": "Text",
-      "identifier" : "URL"
+      "familyName": "Text",
+      "givenName": "Text",
+      "identifier" : "Text"
     }
   ],
   "keywords": "Text",
@@ -25,6 +26,17 @@
     "@type": "DataDownload",
     "url": "URL"
   },
+  "relatedPublication": [
+    {
+      "@type": "PublicationIssue",
+      "issueNumber": "Integer/Text",
+      "identifier": "Text/URL",
+      "author": "Person",
+      "datePublished": "Date/DateTime",
+      "description": "Text",
+      "name": "Text"
+    }
+  ],
   "dataFeedElement": [
     {
       "@type": "DataFeedItem",
@@ -32,11 +44,23 @@
       "dateModified": "Date/DateTime",
       "item": {
         "@type": "Thing",
-        "identifier": "Text",
+        "OID": "Text",
         "contentURL": "URL",
-        "description": "Text",
-        "name": "Text",
-        "contentSize": "Text"
+        "Description": "Text",
+        "Date": "Date",
+        "Period": "Text",
+        "Latin.name": "Text",
+        "Common name": "Text",
+        "Site": "Text",
+        "County": "Text",
+        "City": "Text",
+        "Transect.no": "Integer",
+        "plant ID": "Text",
+        "estimated coverage m2": "Float",
+        "Family": "Text",
+        "Genus": "Text",
+        "Species": "Text",
+        "Native.status": "Text"
       }
     }
   ]

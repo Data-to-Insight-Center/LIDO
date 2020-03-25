@@ -8,15 +8,16 @@
     {
       "@type": "Organization",
       "legalName" : "Text",
-      "address" : "Text",
+      "email" : "Text",
       "department" : "Text",
       "url" : "URL"
     },
     {
       "@type": "Person",
       "affiliation": "Organization",
-      "name": "Text",
-      "identifier" : "URL"
+      "familyName": "Text",
+      "givenName": "Text",
+      "identifier" : "Text"
     }
   ],
   "keywords": "Text",
@@ -46,7 +47,7 @@
         "datePublished": "Date/DateTime",
         "dateDeposited": "Date/DateTime",
         "name": "Text",
-        "pidURL": "URL",
+        "contentURL": "URL",
         "size": "Text",
         "type": "Text",
         "depositor": "Person"

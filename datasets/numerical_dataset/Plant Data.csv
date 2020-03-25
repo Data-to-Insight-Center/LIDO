@@ -1,10 +1,11 @@
-﻿OID,Date,Period,Latin.name,Common name,Description,Site,County,City,Transect.no,plant ID,estimated coverage m2,Family,Genus,Species,combined spp name,Native.status
-506,7/5/17,July,Alcea setosa,Hollyhock,"large pink flowers on stalks leaves with deep lobes, tall and planted",BN,Wayne,Detroit,4,BN-A25,0.12,Malvaceae,Alcea,setosa,Alcea setosa,exotic
-46,6/5/17,June,Allium cepa,Onion,thick blue green stems and stalks,BN,Wayne,Detroit,1,BN-4,0.15,Amaryllidaceae,Allium,cepa,Allium cepa,exotic
-485,7/5/17,July,Allium cepa,Onion,,BN,Wayne,Detroit,2,BN-A12,0.05,Amaryllidaceae,Allium,cepa,Allium cepa,exotic
-1119,8/2/17,August,Arctium minus,Common Burdock,"No spikes or needles, coarse leaves, bulbous flower heads, leaves alternate flowers too",BN,Wayne,Detroit,1,BN-B5,0.025,Asteraceae,Arctium,minus,Arctium minus,exotic
-1148,8/2/17,August,Arctium minus,Common Burdock,,BN,Wayne,Detroit,3,BN-B5,0.013,Asteraceae,Arctium,minus,Arctium minus,exotic
-54,6/5/17,June,Brassica spp.,Purple leaved cultivar,,BN,Wayne,Detroit,2,BN-12,2,Brassicaceae,Brassica,spp.,Brassica spp.,exotic
-57,6/5/17,June,Brassica spp.,wild cabbage,"leaves and flowers indicate that this is oleracea, cultivar uncertain but likely wild cultivar",BN,Wayne,Detroit,2,BN-12,0.005,Brassicaceae,Brassica,spp.,Brassica spp.,exotic
-481,7/5/17,July,Brassica spp.,Indian Mustard ,,BN,Wayne,Detroit,1,BN-A9,0.01,Brassicaceae,Brassica,spp.,Brassica spp.,exotic
-490,7/5/17,July,Brassica spp.,brassica,,BN,Wayne,Detroit,2,BN-A9,0.001,Brassicaceae,Brassica,spp.,Brassica spp.,exotic
+﻿OID,Date,Period,Latin.name,Common name,Description,Site,County,City,Transect.no,plant ID,estimated coverage m2,Family,Genus,Species,Native.status
+506,7/5/17,July,Alcea setosa,Hollyhock,"large pink flowers on stalks leaves with deep lobes, tall and planted",BN,Wayne,Detroit,4,BN-A25,0.12,Malvaceae,Alcea,setosa,exotic
+46,6/5/17,June,Allium cepa,Onion,thick blue green stems and stalks,BN,Wayne,Detroit,1,BN-4,0.15,Amaryllidaceae,Allium,cepa,exotic
+485,7/5/17,July,Allium cepa,Onion,,BN,Wayne,Detroit,2,BN-A12,0.05,Amaryllidaceae,Allium,cepa,exotic
+1119,8/2/17,August,Arctium minus,Common Burdock,"No spikes or needles, coarse leaves, bulbous flower heads, leaves alternate flowers too",BN,Wayne,Detroit,1,BN-B5,0.025,Asteraceae,Arctium,minus,exotic
+1148,8/2/17,August,Arctium minus,Common Burdock,,BN,Wayne,Detroit,3,BN-B5,0.013,Asteraceae,Arctium,minus,exotic
+54,6/5/17,June,Brassica spp.,Purple leaved cultivar,,BN,Wayne,Detroit,2,BN-12,2,Brassicaceae,Brassica,spp.,exotic
+57,6/5/17,June,Brassica spp.,wild cabbage,"leaves and flowers indicate that this is oleracea, cultivar uncertain but likely wild cultivar",BN,Wayne,Detroit,2,BN-12,0.005,Brassicaceae,Brassica,spp.,exotic
+481,7/5/17,July,Brassica spp.,Indian Mustard ,,BN,Wayne,Detroit,1,BN-A9,0.01,Brassicaceae,Brassica,spp.,exotic
+490,7/5/17,July,Brassica spp.,brassica,,BN,Wayne,Detroit,2,BN-A9,0.001,Brassicaceae,Brassica,spp.,exotic
+1133,8/2/17,August,Brassica spp.,lettuce,,BN,Wayne,Detroit,2,BN-B17,0.003,Brassicaceae,Brassica,spp.,exotic

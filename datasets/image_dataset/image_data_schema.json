@@ -8,15 +8,16 @@
     {
       "@type": "Organization",
       "legalName" : "Text",
-      "address" : "Text",
+      "email" : "Text",
       "department" : "Text",
       "url" : "URL"
     },
     {
       "@type": "Person",
       "affiliation": "Organization",
-      "name": "Text",
-      "identifier" : "URL"
+      "familyName": "Text",
+      "givenName": "Text",
+      "identifier" : "Text"
     }
   ],
   "keywords": "Text",
@@ -25,6 +26,17 @@
     "@type": "DataDownload",
     "url": "URL"
   },
+  "relatedPublication": [
+    {
+      "@type": "PublicationIssue",
+      "issueNumber": "Integer/Text",
+      "identifier": "Text/URL",
+      "author": "Person",
+      "datePublished": "Date/DateTime",
+      "description": "Text",
+      "name": "Text"
+    }
+  ],
   "dataFeedElement": [
     {
       "@type": "DataFeedItem",
